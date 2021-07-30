@@ -9,5 +9,6 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  
+  background:#251801;
+  cursor:url("./img/cursor.png") pointer;
 }
