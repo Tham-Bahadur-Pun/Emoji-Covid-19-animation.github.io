@@ -24,6 +24,25 @@ body{
   background:#ffcd00;
   border-radius:50%;
   display:flex;
+  justify-content: center;
+  align-items: center;
   margin:0 1.5em;
   
+}
+.face:before{
+  content:"";
+  position:absolute;
+  top:90px;
+  height:35px;
+  width:75px;
+  background:#795003;
+  border-bottom-right-radius:35px;
+  border-bottom-left-radius:35px;
+}
+.face:hover:before{
+  top:105px;
+  width:75px;
+  height:10px;
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
 }
