@@ -12,3 +12,18 @@ body{
   background:#251801;
   cursor:url("./img/cursor.png") pointer;
 }
+.container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.face{
+  position:relative;
+  width:150px;
+  height:150px;
+  background:#ffcd00;
+  border-radius:50%;
+  display:flex;
+  margin:0 1.5em;
+  
+}
